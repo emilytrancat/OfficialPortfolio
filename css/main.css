@@ -83,13 +83,23 @@ img {
 }
 
 .val-header nav {
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     display: flex;
     gap: 80px;
     padding: 30px;
     
     }
+
+.buttons-on-header nav {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  gap: 80px;
+  padding: 30px;
+
+}
+
 
 .val-header nav a {
     color: white;
