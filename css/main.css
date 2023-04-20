@@ -101,6 +101,16 @@ img {
 }
 
 
+.buttons-on-header nav a {
+  color: white;
+  align-items: center;
+  justify-content: top;
+  font-family: 'Karla', sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  background-color: black;
+}
+
 .val-header nav a {
     color: white;
     align-items: center;
