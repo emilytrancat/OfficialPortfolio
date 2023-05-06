@@ -79,7 +79,10 @@ img {
 }
 
 .val-header {
-    background-color: black;
+  background-color: black;
+  justify-content: left;
+  display: flex;
+  align-items: center;
 }
 
 .val-header nav {
@@ -88,6 +91,7 @@ img {
     display: flex;
     gap: 80px;
     padding: 30px;
+    font-size: 20px;
     
     }
 
