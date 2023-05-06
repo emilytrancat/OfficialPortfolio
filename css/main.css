@@ -2,27 +2,27 @@
 
 body {
     /* distribute font to entire site */
-    font-family: 'Karla', sans-serif;
-    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
 
 }
 
 h1 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 700;
     text-align: center;
 
 }
 
 h2 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: black;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: black;
     text-align: center;
@@ -33,14 +33,14 @@ span a {
     color: black;
     justify-content: center;
     text-align: center;
-    font-family: 'Karla', sans-serif;
-    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
     font-size: 20px;
 }
 
 
 p {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 20px;
     text-align: center;
@@ -53,8 +53,8 @@ h3,
 h4,
 h5,
 h6 { 
-    font-family: 'Karla', sans-serif;
-    font-weight: 700; 
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400; 
     text-transform: uppercase; 
 
 }
@@ -105,18 +105,16 @@ img {
   color: white;
   align-items: center;
   justify-content: top;
-  font-family: 'Karla', sans-serif;
-  font-style: bold;
-  font-weight: 700;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
   background-color: black;
 }
 
 .val-header nav a {
     color: white;
     align-items: center;
-    font-family: 'Karla', sans-serif;
-    font-style: bold;
-    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
     background-color: black;
 }
 
@@ -285,7 +283,7 @@ background-position: center center;
 
  .Footer-Poo-Main {
     color: gray;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-style: bold;
     display: flex;
     justify-content: flex-end
