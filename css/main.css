@@ -4,16 +4,19 @@ body {
     /* distribute font to entire site */
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-
-
 }
 
-
-.hamburger {
+body {
+  color: white;
+  background-color: black;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+}
+
+.center {
+color: white;
+background-color: black;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -21,10 +24,9 @@ body {
   width: 50px;
 }
 
-.hamburger:before,
-.hamburger:after,
-.hamburger div {
-  background: #fff;
+.center:before,
+.center:after,
+.center div {
   content: "";
   display: block;
   height: 6px;
@@ -32,13 +34,13 @@ body {
   margin: 7px 0;
   transition: 0.5s;
 }
-.hamburger:hover:before {
+.center:hover:before {
   transform: translateY(12px) rotate(135deg);
 }
-.hamburger:hover:after {
+.center:hover:after {
   transform: translateY(-12px) rotate(-135deg);
 }
-.hamburger:hover div {
+.center:hover div {
   transform: scale(0);
 }
 
