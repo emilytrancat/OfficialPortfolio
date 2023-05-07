@@ -60,16 +60,53 @@ h6 {
 }
 
 a {
-    text-align: center;
+  text-align: center;
    text-decoration: none;
-   color: black; 
-
 }
 
-img {
-    display: block;
-    margin: auto 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.burrito-container {
+  margin: 150 px auto;
+  width: 70%;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.burrito-text {
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 40px;
+}
+
+.burrito-text h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.burrito-text p {
+  font-size: 12px;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+
+.burrito img {
+  padding: 40px;
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-box {
