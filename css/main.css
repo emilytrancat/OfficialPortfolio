@@ -4,6 +4,7 @@ body {
     /* distribute font to entire site */
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    padding: 20px;
 }
 
 
@@ -76,11 +77,17 @@ a {
   padding: 0;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  
+  justify-content: left;
+  align-items: left;
 }
 
+.burrito-container h2 {
+font-size: 30px;
+}
+
+.burrito-container p {
+  font-size: 12px;
+}
 
 .burrito-text {
   color: white;
@@ -90,28 +97,15 @@ a {
   padding: 40px;
 }
 
-.burrito-text h2 {
-  font-size: 30px;
-  color: white;
+
+.burrito-container img {
+  max-width: 320px;
+  justify-content: left;
+  align-items: left;
+  border: 10px solid white;
+  border-radius: 10px;
 }
 
-.burrito-text p {
-  font-size: 12px;
- justify-content: center;
- align-items: center;
- display: flex;
-}
-
-.burrito img {
-  padding: 40px;
-  max-width: 400px;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-box {
-  color: white;
-}
 
 .val-header {
   background-color: black;
