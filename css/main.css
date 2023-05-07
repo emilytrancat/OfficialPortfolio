@@ -5,7 +5,43 @@ body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
 
+
 }
+
+
+.hamburger {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 50px;
+}
+
+.hamburger:before,
+.hamburger:after,
+.hamburger div {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 6px;
+  border-radius: 3px;
+  margin: 7px 0;
+  transition: 0.5s;
+}
+.hamburger:hover:before {
+  transform: translateY(12px) rotate(135deg);
+}
+.hamburger:hover:after {
+  transform: translateY(-12px) rotate(-135deg);
+}
+.hamburger:hover div {
+  transform: scale(0);
+}
+
 
 h1 {
     font-family: 'Rubik', sans-serif;
@@ -80,9 +116,6 @@ img {
 
 .val-header {
   background-color: black;
-  justify-content: left;
-  display: flex;
-  align-items: center;
 }
 
 .val-header nav {
