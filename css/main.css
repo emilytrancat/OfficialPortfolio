@@ -69,6 +69,20 @@ a {
   min-height: 100vh;
 }
 
+.text p {
+  color: gainsboro;
+  font-size: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.text h2 {
+  color: gainsboro;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
 .img {
   max-width: 20px;
   align-content: left;
