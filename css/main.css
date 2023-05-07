@@ -53,31 +53,27 @@ a {
    text-decoration: none;
 }
 
-.burrito {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.container {
+  margin: 100px;
+  width: 75%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center
+  min-height: 100vh;
 }
 
+.img {
+  max-width: 20px;
+  align-content: left;
 
-.burrito-text h1 {
-  font-size: 12px;
-  padding-left: 20px;
-  color: white;
 }
-
-.burrito-text p {
-  font-size: 8px;
-  color: white;
-  padding-left: 20px;
-  padding-top: 20%;
-}
-
-
-.burrito-container {
-  max-width: 500px;
-}
-
 
 .val-header {
   background-color: black;
