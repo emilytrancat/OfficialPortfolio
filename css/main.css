@@ -82,11 +82,10 @@ a {
   padding-right: 60px;
 }
 
-.text h2 {
+.text h1 {
   color: gainsboro;
-  font-size: 40px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  font-size: 30px;
+  padding-left: 56px;
 }
 
 .val-header {
@@ -160,6 +159,8 @@ gap: 100px;
 
 .Contact-Texts h1 {
   color: white;
+  text-align: center;
+  font-size: 30px;
 }
 
 .Contact-Tile img {
