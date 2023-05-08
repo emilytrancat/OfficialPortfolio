@@ -53,10 +53,10 @@ h6 {
 
 }
 
-a {
+a:hover {
   text-align: center;
   text-decoration: none;
-  color: white;
+  
 }
 
 * {
@@ -190,7 +190,6 @@ gap: 100px;
   color: gainsboro;
 }
 
-
  .grid {
     max-width: 60 rem;
     margin: 0 auto;
@@ -273,5 +272,10 @@ gap: 100px;
     line-height: 0.8;
   }
   
-
+  @media only screen and (max-width: 600px){
+    .content {
+      display: block;
+      flex-direction: column;
+    }
+  } 
  
