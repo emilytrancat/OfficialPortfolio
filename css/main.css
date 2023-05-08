@@ -12,7 +12,7 @@ h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -165,6 +165,25 @@ gap: 100px;
 .Contact-Tile img {
   width: 70px;
   color: white;
+}
+
+.work-container {
+  display: grid;
+  align-items: left;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
+.work-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.work-text {
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 
